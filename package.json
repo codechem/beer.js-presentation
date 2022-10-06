@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "render": "remotion render src/index.tsx Scenes out/video.mp4"
   },
   "dependencies": {
     "@remotion/cli": "^3.2.27",
